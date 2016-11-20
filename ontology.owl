@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#dorsalTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#dorsalTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ventralTo"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#dorsalTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ventralTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ventralTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AccessoryNerve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AccessoryNerve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CranialNerve"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AddictionDisorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AddictionDisorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AlzheimersDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AlzheimersDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Amygdala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Amygdala">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AnteriorCommisure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#AnteriorCommisure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Arteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Arteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BloodVessel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BasalAmygdala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BasalAmygdala">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Amygdala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BloodVessel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BloodVessel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CA1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CA1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CA2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CA2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CA3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CA3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CT_SCAN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CT_SCAN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ImagingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Caudate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Caudate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Striatum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CentralAmygdala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CentralAmygdala">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Amygdala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Cerebellum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Cerebellum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Circuit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Circuit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CranialNerve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CranialNerve"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#DentateGyrus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#DentateGyrus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hippocampus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Disease"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#FrontalLobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#FrontalLobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lobe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hippocampus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hippocampus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#HuntingtonsDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#HuntingtonsDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hypothalamus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Hypothalamus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ImagingMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ImagingMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#InternalCarotidArtery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#InternalCarotidArtery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Arteries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lobe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lymph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lymph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BloodVessel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#MRI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#MRI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ImagingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#MedioDorsalNuclei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#MedioDorsalNuclei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Thalamus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#NucleusAccumbens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#NucleusAccumbens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Striatum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#OcciptalLobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#OcciptalLobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lobe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#OlfactoryTubercle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#OlfactoryTubercle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Striatum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#OpticalNerve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#OpticalNerve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CranialNerve"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#PET -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#PET">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ImagingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ParietalLobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ParietalLobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lobe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ParkinsonsDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#ParkinsonsDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Pons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Pons"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#PotineArtery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#PotineArtery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Arteries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Putamen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Putamen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Striatum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Striatum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Striatum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#TemporalLobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#TemporalLobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Lobe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Thalamus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Thalamus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BrainStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#TrigeminalNerve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#TrigeminalNerve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#CranialNerve"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Veins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Veins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#BloodVessel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#meso-corticalCircuit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#meso-corticalCircuit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Circuit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#meso-limbicCircuit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#meso-limbicCircuit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sharaf/ontologies/2016/10/untitled-ontology-5#Circuit"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
